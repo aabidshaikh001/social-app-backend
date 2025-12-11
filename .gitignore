@@ -1,0 +1,71 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Debug
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Coverage
+coverage/
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# Uploads (if stored locally — optional)
+uploads/
+public/uploads/
+
+# SQL backup files
+*.bak
+*.sql
+
+# Sentry or other tool configs
+.sentryclirc
+
+# TypeScript
+*.tsbuildinfo
+
+# Local database files (if any)
+data/*.db
+data/*.db-journal
+
+# Windows / Mac system files
+Thumbs.db
+Desktop.ini
+
+# PM2 logs
+.pids
+.pm2/logs/
+.pm2/pids/
+
+# Multer temp files (optional)
+uploads/tmp/
